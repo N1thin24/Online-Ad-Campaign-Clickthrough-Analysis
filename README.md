@@ -2,7 +2,7 @@
 
 **Overview**
 
-This Shiny application is an advanced analytical tool designed to predict and analyze clickthrough rates (CTR) for online advertising campaigns. The app integrates a Random Forest machine learning model to predict the likelihood of a user clicking on an ad based on various features, such as the type of restaurant advertised, the day of the week, and the time a user has spent on a previous website. It offers a comprehensive suite of tools for interactive data exploration, model performance evaluation, and simulation of CTR based on user-defined inputs.
+This Shiny application is an advanced analytical tool designed to predict and analyze clickthrough rates (CTR) for online advertising campaigns. The app integrates a Random Forest machine learning model with 93% validation accuracy to predict the likelihood of a user clicking on an ad based on various features, such as the type of restaurant advertised, the day of the week, and the time a user has spent on a previous website. It offers a comprehensive suite of tools for interactive data exploration, model performance evaluation, and simulation of CTR based on user-defined inputs.
 
 
 **Interactive Data Analysis**
