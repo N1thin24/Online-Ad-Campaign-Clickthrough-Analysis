@@ -9,10 +9,14 @@ This Shiny application is an advanced analytical tool designed to predict and an
 
 Users can dynamically group data by selected variables such as Region, Orders_Grouped, Social_Network, and Weekday to analyze CTR.
 A slider allows filtering of the dataset based on the amount of time users spent on the previous website, offering insights into how user engagement correlates with clickthrough behavior.
+
+
 **Model Performance Visualization**
 
 The application displays a bar chart to visualize the CTR percentage by weekdays and weekends, providing a clear comparison of user engagement.
 A confusion matrix is presented in a tabular format, highlighting the accuracy of the Random Forest model predictions against the actual data.
+
+
 **Data Insights**
 
 Feature importance is plotted to showcase which variables have the most significant impact on the model's predictions, with 'Carrier' being identified as the top influencer.
@@ -21,6 +25,8 @@ The app informs users about the primary factors contributing to ad clickthroughs
 
 A simulation interface allows users to input hypothetical scenarios using dropdown menus and sliders for different features, such as Region, Daytime, Carrier, and more.
 Upon input and prediction request, the app uses the trained Random Forest model to predict CTR, providing instant feedback on the potential effectiveness of an ad campaign under the given conditions.
+
+
 **User-Friendly UI**
 
 The app's layout is designed for ease of use, with a clear navigation tab structure that separates the different functionalities.
